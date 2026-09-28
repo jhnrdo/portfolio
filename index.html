@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>John Jhonard De Robles | Portfolio</title>
+
+    <link rel="stylesheet" href="home-style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- =========================
+         HEADER
+         ========================= -->
+
+    <header class="header-container">
+      <a href="#home" class="brand">
+        <span class="coding-symbol">&lt;/&gt;</span>
+        <span class="profile-name">JHNRDO</span>
+      </a>
+
+      <nav class="middle-section" id="navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="right-section">
+        <a href="#contact" class="contact-button">Contact Me</a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- =========================
+           HERO
+           ========================= -->
+
+      <section class="hero-section" id="home">
+        <div class="hero-left">
+          <p class="greetings">Hi, I'm</p>
+
+          <h1>
+            John Jhonard
+            <br />
+            De Robles
+          </h1>
+
+          <h2>Aspiring Full Stack Developer</h2>
+
+          <p class="hero-description">
+            BSIT student passionate about building web applications and solving
+            real-world problems through code.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="primary-button">
+              View Projects
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="resume/resume.pdf" class="secondary-button">
+              Download CV
+              <i class="fa-solid fa-download"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="profile-wrapper">
+            <div class="profile-glow"></div>
+
+            <img
+              src="image/550732436_17944694229028284_5934805908495525061_n.jpg"
+              alt="John Jhonard De Robles"
+              class="profile-picture"
+            />
+          </div>
+
+          <div class="profile-info">
+            <div class="profile-item">
+              <i class="fa-regular fa-user"></i>
+              <span class="profile-label">Age</span>
+              <strong>21</strong>
+            </div>
+
+            <div class="profile-item">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span class="profile-label">Course</span>
+              <strong>BSIT</strong>
+            </div>
+
+            <div class="profile-item">
+              <i class="fa-regular fa-calendar-days"></i>
+              <span class="profile-label">Year</span>
+              <strong>3rd Year</strong>
+            </div>
+
+            <div class="profile-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span class="profile-label">Location</span>
+              <strong>Philippines</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+           ABOUT + TECH STACK
+           ========================= -->
+
+      <section class="overview-section">
+        <article class="info-card about-card" id="about">
+          <div class="card-title-row">
+            <i class="fa-regular fa-user"></i>
+            <h2>About Me</h2>
+          </div>
+
+          <p>
+            I'm a BSIT student with a strong interest in web development,
+            problem-solving, and UI/UX design. I enjoy turning ideas into
+            functional and user-friendly applications.
+          </p>
+
+          <p>
+            I'm continuously learning new technologies and improving my skills
+            as I work toward becoming a full-stack developer.
+          </p>
+        </article>
+
+        <article class="info-card tech-card" id="skills">
+          <div class="card-title-row">
+            <i class="fa-solid fa-code"></i>
+            <h2>Tech Stack</h2>
+          </div>
+
+          <div class="tech-grid">
+            <div class="tech-item">
+              <i class="fa-brands fa-html5 html-icon"></i>
+              <span>HTML</span>
+            </div>
+
+            <div class="tech-item">
+              <i class="fa-brands fa-css3-alt css-icon"></i>
+              <span>CSS</span>
+            </div>
+
+            <div class="tech-item">
+              <i class="fa-brands fa-js js-icon"></i>
+              <span>JavaScript</span>
+            </div>
+
+            <!-- <div class="tech-item">
+              <i class="fa-brands fa-react react-icon"></i>
+              <span>React</span>
+            </div>
+
+            <div class="tech-item">
+              <span class="tailwind-logo">≈</span>
+              <span>Tailwind CSS</span>
+            </div>
+
+            <div class="tech-item">
+              <i class="fa-brands fa-node-js node-icon"></i>
+              <span>Node.js</span>
+            </div> -->
+
+            <div class="tech-item">
+              <i class="fa-solid fa-database mysql-icon"></i>
+              <span>MySQL</span>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- =========================
+           PROJECTS
+           ========================= -->
+
+      <section class="projects-section" id="projects">
+        <div class="section-title-row">
+          <div class="section-title">
+            <i class="fa-regular fa-folder"></i>
+            <h2>Projects</h2>
+          </div>
+
+          <!-- <a href="#" class="view-all-projects">
+            View All Projects
+            <i class="fa-solid fa-arrow-right"></i>
+          </a> -->
+        </div>
+
+        <div class="projects-grid">
+          <!-- PROJECT 1 -->
+
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <img
+                src="image/supremo-barber.png"
+                alt="Supremo Barber"
+                class="project-image"
+              />
+            </div>
+
+            <div class="project-content">
+              <h3>Supremo Barber</h3>
+
+              <p>
+                A responsive multi-branch barber website with service, branch,
+                gallery, and booking sections.
+              </p>
+
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <a
+                href="https://jhnrdo.github.io/Supremo-Barber---Unofficial-Website/"
+                class="project-link"
+              >
+                View Project
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 -->
+
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <img
+                src="image/pkmkpi.png"
+                alt="PWD Organization Website"
+                class="project-image"
+              />
+            </div>
+
+            <div class="project-content">
+              <h3>PWD Organization Website</h3>
+
+              <p>
+                A responsive organization website featuring information, guides,
+                press content, and support sections.
+              </p>
+
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <a
+                href="https://jhnrdo.github.io/pkmkpi-website-design/"
+                class="project-link"
+              >
+                View Project
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 3 -->
+
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <img
+                src="image/risk-or-rise.png"
+                alt="Risk or Rise"
+                class="project-image"
+              />
+            </div>
+
+            <div class="project-content">
+              <h3>Risk or Rise</h3>
+
+              <p>
+                An interactive ISO 7010 safety sign challenge website with game
+                mechanics and responsive layouts.
+              </p>
+
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <a href="#" class="project-link">
+                View Project
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- =========================
+           EDUCATION
+           ========================= -->
+
+      <section class="education-section" id="education">
+        <div class="section-title">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h2>Education</h2>
+        </div>
+
+        <article class="education-card">
+          <div class="education-icon">
+            <i class="fa-solid fa-school"></i>
+          </div>
+
+          <div class="education-content">
+            <div class="education-header">
+              <div>
+                <h3>Bachelor of Science in Information Technology</h3>
+                <p class="school-name">Bulacan State University</p>
+              </div>
+
+              <span class="education-year">Present</span>
+            </div>
+
+            <p class="education-specialization">
+              Specialization in Web and Mobile Application Development
+            </p>
+
+            <p class="education-description">
+              Developing skills in front-end development, programming,
+              databases, system development, UI/UX design, and software
+              engineering.
+            </p>
+
+            <div class="education-tags">
+              <span>Web Development</span>
+              <span>Programming</span>
+              <span>Database</span>
+              <span>UI/UX</span>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- =========================
+           CONTACT
+           ========================= -->
+
+      <section class="contact-section" id="contact">
+        <div class="contact-content">
+          <p class="section-label">GET IN TOUCH</p>
+
+          <h2>Let's Work Together</h2>
+
+          <p>
+            I'm currently open to internship opportunities, collaborations, and
+            projects where I can continue learning and contributing as a
+            developer.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:jhnjhnrdrbls@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+              Email Me
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/john-jhonard-de-robles-66005b199/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+              LinkedIn
+            </a>
+
+            <a href="https://github.com/jhnrdo" target="_blank">
+              <i class="fa-brands fa-github"></i>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================
+         FOOTER
+         ========================= -->
+
+    <footer class="footer">
+      <div class="footer-left">
+        <span>Let's connect!</span>
+
+        <div class="footer-socials">
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-solid fa-envelope"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+
+      <p>© 2026 John Jhonard De Robles. All rights reserved.</p>
+
+      <a href="#home" class="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
